@@ -1,0 +1,22 @@
+{
+  "name": "watch-car-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.0.7",
+    "apollo-server-lambda": "^2.0.6",
+    "dataloader": "^1.4.0",
+    "graphql": "^14.0.2",
+    "lodash": "^4.17.11",
+    "pg-promise": "^8.4.6",
+    "squel": "^5.12.2"
+  }
+}
